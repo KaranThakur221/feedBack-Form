@@ -1,0 +1,122 @@
+body {
+  /* background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4),
+    url("feedback.jpg")
+  ); */
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 60%;
+  margin: 6rem auto;
+}
+.content-box {
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  box-shadow: 0 5px 10px 15px rgba(3, 3, 3, 0.2);
+}
+img {
+  height: 5rem;
+  width: 5rem;
+  padding: -2rem -2rem;
+  z-index: 1;
+}
+h2,
+h3 {
+  color: grey;
+}
+#txt1 {
+  z-index: 1;
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+}
+.leftside {
+  padding: 4rem 4rem;
+  flex-basis: 20%;
+  background-image: linear-gradient(
+    to left,
+    rgb(177, 225, 255),
+    rgb(166, 108, 255)
+  );
+  color: rgb(96, 96, 96);
+  font-size: medium;
+}
+.rightside {
+  padding: 4rem;
+  flex-basis: 40%;
+}
+#txtArea {
+  height: 5rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  /* color: grey; */
+}
+.info {
+  display: flex;
+  /* padding-top: 1rem;
+  margin-right: 1rem; */
+  /* padding-right: 0.5rem; */
+}
+#txtA {
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#txtB {
+  margin-top: 2rem;
+  margin-left: 0.8rem;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#txtArea {
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}
+#btn1 {
+  margin: 2rem;
+  margin-left: -0.2rem;
+  /* height: 2rem;
+  width: 8rem; */
+  padding: 1rem 1rem;
+  font-size: larger;
+  font-weight: bold;
+  border-radius: 1rem;
+  border-color: transparent;
+  background-color: rgb(255, 170, 0);
+}
+#btn2 {
+  margin-left: 12rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  background-color: rgb(46, 232, 161);
+  color: aliceblue;
+  font-size: larger;
+  font-weight: bold;
+  border-color: transparent;
+}
+#btn1:hover {
+  color: rgb(255, 0, 0);
+  transition: 1s;
+  cursor: pointer;
+  /* background-color: ; */
+}
+#btn2:hover {
+  cursor: pointer;
+  color: blue;
+  transition: 0.5s;
+}
